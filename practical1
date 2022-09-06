@@ -14,3 +14,20 @@ printf("%f",A);
 
     return 0;
 }
+
+
+//write c progarm using constants variabale and arithmetice exprection
+//autoher amaan zahir dandekar
+//date 06/09/2022
+#include <stdio.h>
+#define pi 3.14
+int main() {
+    float A;
+    int r;
+    printf("enter the circle's radius\n");
+scanf("%d",&r);
+A=pi*r*r;
+printf("%f",A);
+
+    return 0;
+}
