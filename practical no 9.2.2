@@ -1,0 +1,20 @@
+//write a program to  print sum of n consecutively number using 
+//name amaan zahir dandekar 
+//date 04/10/2022
+//practical no 9.2.1
+
+#include <stdio.h>
+
+int main() {
+    int sum=0;
+    int n;
+    printf("Enter number to be printed consecutively:");
+    scanf("%d",&n);
+      
+    for(int i=1;i<=n;i++)
+   { 
+     sum=sum+i;
+     printf("sum of first %d is:%d\n",i,sum);
+   }
+    return 0;
+}
